@@ -1,5 +1,5 @@
 # Bike-Share Data Analysis
-## New York City, Chicago, and Washington, DC
+### New York City, Chicago, and Washington, DC
 
 ## Table of Contents
 
