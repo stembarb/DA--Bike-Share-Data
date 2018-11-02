@@ -1,4 +1,5 @@
-# DA--Bike-Share-Data
+# Bike-Share Data Analysis
+## New York City, Chicago, and Washington, DC
 
 ## Table of Contents
 
@@ -15,7 +16,17 @@ In this project, I have performed an exploratory analysis on data provided by [M
 
 ## Tools & Dependencies
 
-Analysis has been performed in the [Jupyter Notebook](http://jupyter.org/), using Python. The following libearies have to be installed and imported:
+In this project, I have focused on the record of individual trips taken in 2016 from three selected cities: New York City, Chicago, and Washington, DC. Each of these cities has a page where we can freely download the trip data:
+
+* New York City (Citi Bike): [Link](https://www.citibikenyc.com/system-data)
+* Chicago (Divvy): [Link](https://www.divvybikes.com/system-data)
+* Washington, DC (Capital Bikeshare): [Link](https://www.capitalbikeshare.com/system-data)
+
+The data is stored in the `/data/` folder of the project files.
+
+Analysis has been performed in the [Jupyter Notebook](http://jupyter.org/), using Python 3.x.  
+
+The following libearies have to be installed and imported:
   
 ```python
 import csv
@@ -26,7 +37,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-  
 ## Contributing
 
 I accept contributions. For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
