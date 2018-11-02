@@ -1,5 +1,4 @@
 # Bike-Share Data Analysis
-### New York City, Chicago, and Washington, DC
 
 ## Table of Contents
 
@@ -45,7 +44,7 @@ git clone https://github.com/BarbaraStempien/DA--Bike-Share-Data.git
 3. Install project dependencies:  
 
 ```shell
-pip install -r worldcupproject/requirements.txt
+pip install -r DA--Bike-Share-Data/requirements.txt
 ```
   
 4. Open Jupter Notebook, and run the project.
