@@ -5,6 +5,7 @@
 
 * [Description](#description)
 * [Tools & Dependencies](#tools)
+* [Installation](#installation)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -26,17 +27,29 @@ The data is stored in the `/data/` folder of the project files.
 
 Analysis has been performed in the [Jupyter Notebook](http://jupyter.org/), using Python 3.x.  
 
-The following libearies have to be installed and imported:
+## Installation
+
+To run this project:
   
-```python
-import csv
-from datetime import datetime 
-from pprint import pprint 
-import calendar
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+1. With python 3.x installed, create a virtual environment and activate it as shown:
+  
+```shell
+  virtualenv -p python3 my_virtualenv
+  source my_virtualenv/bin/activate
 ```
+2. Clone this repository into your virtual environment:  
+
+```shell
+git clone https://github.com/BarbaraStempien/DA--Bike-Share-Data.git
+```
+3. Install project dependencies:  
+
+```shell
+pip install -r worldcupproject/requirements.txt
+```
+  
+4. Open Jupter Notebook, and run the project.
+
 ## Contributing
 
 I accept contributions. For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
